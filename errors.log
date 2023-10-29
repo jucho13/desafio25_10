@@ -1,0 +1,4 @@
+warning: Prueba de log level warning!
+warning: Prueba de log level warning!
+{"level":"warning","message":"Prueba de log level warn!"}
+{"level":"warning","message":"Prueba de log level warn!"}

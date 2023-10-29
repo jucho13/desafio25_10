@@ -22,9 +22,7 @@ export const saveProducts = (req, res) =>{
     
     if (code === 'AF23') {
 
-        //Create Custom Error
-        // TODO: Implementar
-        CustomError.createError({
+            CustomError.createError({
             name: "Product Creation Error",
             cause: generateUserErrorInfo({ title, price, description, thumbnail, id, code, stock, status }),
             message: "Error tratando de crear el producto",
